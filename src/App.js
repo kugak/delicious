@@ -1,5 +1,11 @@
+import Pages from "./pages/Pages";
+
 function App() {
-  return <h1>Hellow</h1>;
+  return (
+    <div className="App">
+      <Pages />
+    </div>
+  );
 }
 
 export default App;
